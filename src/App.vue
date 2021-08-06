@@ -1,10 +1,38 @@
 <template>
-  <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+  <div class="w-100 container-fluid mx-0 px-0">
+    <Navbar/>
+    <Header/>
+    <WhatWeDo/>
+    <Idea/>
+    <ContactUs/>
+    <Footer/>
   </div>
-  <router-view/>
 </template>
+
+<script>
+// @ is an alias to /src
+import Navbar from './components/Navbar'
+import Header from './components/Header'
+import WhatWeDo from './components/WhatWeDo'
+import Idea from './components/Idea'
+import 'bootstrap/scss/bootstrap.scss'
+import './style.scss'
+import Footer from "./components/Footer";
+import ContactUs from "./components/ContactUs";
+
+
+export default {
+  name: 'App',
+  components: {
+    ContactUs,
+    Footer,
+    Navbar,
+    Header,
+    WhatWeDo,
+    Idea,
+  }
+}
+</script>
 
 <style lang="scss">
 #app {

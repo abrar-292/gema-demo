@@ -1,0 +1,23 @@
+@font-face {
+  font-family: SourceRegular;
+  src: url('assets/Fonts/SourceSansPro-Regular.otf');
+}
+
+@font-face {
+  font-family: SourceBold;
+  src: url('assets/Fonts/SourceSansPro-Bold.otf');
+}
+
+@font-face {
+  font-family: SourceBoldItalic;
+  src: url('assets/Fonts/SourceSansPro-BoldIt.otf');
+}
+
+@font-face {
+  font-family: SourceItalic;
+  src: url('assets/Fonts/SourceSansPro-It.otf');
+}
+
+.container {
+  width: 1150px !important;
+}
