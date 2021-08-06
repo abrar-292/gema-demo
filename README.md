@@ -1,4 +1,4 @@
-# gema-demo
+# demo-gema
 
 ## Project setup
 ```
